@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>book lena ceunah</title>
+    <meta name="description" content="I Love You Unlimited Anisa Aulia">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+    <script src="js/flipbook.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#container").flipBook({
+                pages: [
+                    { src: "images/book2/page1.jpg", thumb: "images/book2/thumb1.jpg", title: "Cover" },
+                    { src: "images/book2/page2.jpg", thumb: "images/book2/thumb2.jpg", title: "Page two" },
+                    { src: "images/book2/page3.jpg", thumb: "images/book2/thumb3.jpg", title: "Page three" },
+                    { src: "images/book2/page4.jpg", thumb: "images/book2/thumb4.jpg", title: "Page four" },
+                    { src: "images/book2/page5.jpg", thumb: "images/book2/thumb5.jpg", title: "Page four" },
+                    { src: "images/book2/page6.jpg", thumb: "images/book2/thumb6.jpg", title: "Page two" },
+                    { src: "images/book2/page7.png", thumb: "images/book2/thumb7.png", title: "Page two" },
+                    { src: "images/book2/page8.png", thumb: "images/book2/thumb8.png", title: "Page two" },
+                    { src: "images/book2/page9.png", thumb: "images/book2/thumb9.png", title: "Page two" },
+                    { src: "images/book2/page10.png", thumb: "images/book2/thumb10.png", title: "Page two" },
+                    { src: "images/book2/page11.png", thumb: "images/book2/thumb11.png", title: "Page two" },
+                    { src: "images/book2/page12.png", thumb: "images/book2/thumb12.png", title: "Page two" },
+                    { src: "images/book2/page13.png", thumb: "images/book2/thumb13.png", title: "Page two" },
+                    { src: "images/book2/page14.png", thumb: "images/book2/thumb14.png", title: "Page two" },
+                    { src: "images/book2/last.png", thumb: "images/book2/last1.png", title: "Page two" },
+                    { src: "images/book2/page15.jpg", thumb: "images/book2/thumb15.jpg", title: "Last Page" }
+                ]
+            });
+
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Container untuk Flipbook -->
+    <div id="container"></div>
+
+    <!-- YouTube Musik Auto Play -->
+    <div style="display: none;">
+        <iframe 
+            id="youtubePlayer"
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/4ofhlicIqD8?autoplay=1&mute=1&loop=1&playlist=4ofhlicIqD8"
+            frameborder="0" 
+            allow="autoplay"
+        ></iframe>
+    </div>
+
+</body>
+
+</html>
